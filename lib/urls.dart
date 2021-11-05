@@ -1,9 +1,16 @@
-const domain = "https://grafen-it-api.herokuapp.com";
-
 // For local test
 // const domain = "https://localhost:8000";
-//
 
-const retrieveVideosUrl = domain + "/videos/";
+const domain = "https://grafen-it-api.herokuapp.com";
 
-const retrieveVideosCreateUrl = domain + "/videos/create";
+const getVideos = domain + "/videos/";
+
+const createVideo = domain + "/videos/create/";
+
+const deleteVideo = domain + "/videos/delete/";
+
+const getQuestions = domain + "/questions/";
+
+const createQuestion = domain + "/questions/create/";
+
+const deleteQuestion = domain + "/questions/delete/";
